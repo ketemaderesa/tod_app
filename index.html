@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📝 my To-Do List</h1>
+    </header>
+
+    <main>
+      <!-- Input and Add Task Section -->
+      <div class="input-section">
+        <input type="text" id="todoInput" placeholder="Enter a task" />
+        <button id="addBtn">Add Task</button>
+      </div>
+
+      <!-- Task Status Filters -->
+      <div class="filters">
+        <button id="allBtn">All</button>
+        <button id="activeBtn">Active</button>
+        <button id="completedBtn">Completed</button>
+      </div>
+
+      <!-- Task List -->
+      <ul id="todoList"></ul>
+
+      <!-- Clear Completed Button -->
+      <div class="footer-controls">
+        <span id="taskCounter">0 tasks left</span>
+        <button id="clearCompletedBtn">Clear Completed</button>
+      </div>
+    </main>
+
+    <footer>
+      <hr>
+      <p>Developed by <strong>Ketema Deresa</strong></p>
+      <p>Contact: <a href="mailto:ketemaderesa123@gmail.com">ketemaderesa123@gmail.com</a></p>
+      <p>Version 1.0 | &copy; 2024 All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
